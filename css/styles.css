@@ -79,7 +79,7 @@ img{
 	margin: auto;
 	padding: var(--margenes) 2px;
 	width: 98%;
-	max-width: all;
+	max-width: 1000px;
 	text-align: center;
 	overflow: hidden;
 	display: flex;
@@ -296,10 +296,11 @@ nav .enlaces a:hover{
 	text-align: center;
 	margin-left: var(--espacios);
 	margin-bottom: var(--espacio-cont);
-	padding: 6px 12px;
+	padding: 8px 20px ;
 	border: 1px solid var(--color2);
 	list-style: none;
 	color: var(--color2);
+	border-radius:8px;
 }
 
 .botones-pref li:hover{
@@ -404,5 +405,109 @@ footer p{
 		cursor: pointer;
 	}
 }
+
+
+
+/*  Profile */
+
+.arriva{
+	 overflow:hidden;
+	 display: flex;
+}
+.content-profile{
+	margin-top: 8%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 25%;
+	box-shadow:0 0 6px 0 rgba(0,0,0,5);
+	height: 200px;
+	overflow: hidden;
+	margin-bottom: var(--espacio-img);
+	float: left;
+}
+
+
+.datos-profile{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	display: inline-block;
+	float: right;
+}
+.arriba h4{	
+	margin-right: 35%;
+	margin-top: 8%;
+	float: right;
+}
+
+.datos-profile{
+	float: right;
+	margin-right: 27%;
+	padding: 0px;
+	margin-top: 10px;
+	width: : 50%;
+	border: 1px;
+	border-color: black;
+}
+
+.datos-prof{
+	width: : 50%;
+
+	
+}
+
+
+th, td{
+	padding: 10px;
+
+}
+
+.text-post{
+	width: 1000px;
+	margin-top: 3%;
+	float: left;
+	margin-left: 5%;	
+}
+.text-post h4 p{
+	margin-left: 5px;
+}
+
+.texto-descripcion{
+	width: 70%;
+	height: 250px;
+	border-style: solid;
+	border: 1;
+	border-color: black;
+	
+	background-color: white;
+}
+
+.etiquetas-profile{
+	float:center;
+	margin-top: 5%;
+}
+.etiquetas-profile li{
+	display: inline-block;
+	text-align: center;
+	margin-left: var(--espacios);
+	margin-bottom: var(--espacio-cont);
+	padding: 8px 20px ;
+	list-style: none;
+	color: var(--color2);
+	border-radius:8px;
+}
+.etiquetas-profile a{
+	color: var(--color2);
+}
+
+.etiquetas-profile li:hover{
+	background: #91A68B;
+	color: white;
+	cursor: pointer;
+}
+
+
+
 
 
